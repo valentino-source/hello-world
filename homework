@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: rgb(121, 255, 128);}
+    50%  {background: #33fff3;}
+    75%  {background: rgb(121, 255, 128);}
+    100% {background: #33fff3;}
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: rgb(121, 255, 128);}
+    50%  {background: #33fff3;}
+    75%  {background: rgb(121, 255, 128);}
+    100% {background: #33FFF3;}
+}   
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p { 
+   font-family: sans-serif;
+   font-size: 15px;
+}
+</style>
+</head>
+<body> 
+    <h1>Earth incorporations</h1>
+</body>
+<main>
+    <a href="https://twitter.com/"><img src="img/earthincorporations.jpg" alt= "EARTH"></a>
+</main>
+</html>
